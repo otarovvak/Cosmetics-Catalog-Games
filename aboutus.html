@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cosme Beauty Shop</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/4483/4483015.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="sass/aboutus.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/aa4e7733af.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section id="title">
+        <div class="container-fluid">
+            <!-- Navigation bar -->
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand text-black" href="index.html" style="font-size: 50px;">
+                    <i class="fa-solid fa-cart-shopping fa-bounce" style="color: #000000;"></i>
+                    <span class="ml-2">Cosme</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-sliders"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Catalog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="makeup.html">Make Up</a>
+                                <a class="dropdown-item" href="skincare.html">Skincare</a>
+                                <a class="dropdown-item" href="gifts.html">Gifts</a>
+                                <a class="dropdown-item" href="course.html">Course</a>
+
+                            </ul>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black font-weight-bold" href="quiz.html">Take a Quiz!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black font-weight-bold" href="aboutus.html">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- FAQs -->
+    <section id="faq" class="container-fluid mt-4 mb-4">
+        <h2 class="mt-5 mb-4 text-center">Frequently Asked Questions</h2>
+        <div class="row justify-content-center">
+            <div class="col-5 text-center">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                        href="#list-home" role="tab" aria-controls="home">Who are we?</a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                        href="#list-profile" role="tab" aria-controls="profile">What's our mission?</a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                        href="#list-messages" role="tab" aria-controls="messages">How to contact us?</a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                        href="#list-settings" role="tab" aria-controls="settings">Are the products original?</a>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                        aria-labelledby="list-home-list">We are a passionate team dedicated to providing high-quality
+                        beauty products and services, aiming to enhance your natural beauty and confidence.</div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Our
+                        mission is to bring out the best in you by offering a diverse range of authentic, premium beauty
+                        products and delivering exceptional customer service.</div>
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                        You can reach out to us through our contact form on the website, visit us in-store at our
+                        location, or give us a call during our business hours. We're always ready to assist with any
+                        questions or concerns.</div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                        Yes, all our products are 100% original, sourced directly from trusted suppliers and brands to
+                        ensure authenticity and excellence for our valued customers.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container-fluid dragGrame">
+        <h3 class="mt-4" style="text-align: center;">Do you want to become one of the site moderators? Try to win this
+            game!</h3>
+        <p style="text-align: center;">Create a basic skincare scheme.</p>
+        <div id="game-container" class="mt-5">
+            <div id="products-container">
+                <div class="product" id="oil-based">Oil-based Cleanser</div>
+                <div class="product" id="gel-based">Gel-based Cleanser</div>
+                <div class="product" id="water-based">Water-based Cleanser</div>
+                <div class="product" id="lipstick">Lipstick</div>
+                <div class="product" id="foundation">Foundation</div>
+                <div class="product" id="toner">Toner</div>
+                <div class="product" id="powder">Powder</div>
+                <div class="product" id="serum">Serum</div>
+                <div class="product" id="moist">Moisturiser</div>
+                <div class="product" id="retinol">Retinol</div>
+            </div>
+            <div id="box" class="mt-4">
+                <div id="drop-here" style="text-align: center;">Drop the right products here</div>
+            </div>
+        </div>
+        <!-- Modal for success message -->
+        <div class="modal" id="success-modal" style="display: none;">
+            <div class="modal-content">
+                <p>Good job, we will contact you in 10 business days!</p>
+            </div>
+        </div>
+        <!-- Modal for error message -->
+        <div class="modal" id="error-modal" style="display: none;">
+            <div class="modal-content">
+                <p>Oops! Try again!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-md city-two container-fluid">
+        <h3>Write your suggestions to improve our service or in which you want us to open</h3>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label form-label-email">Email address</label>
+          <input type="email" class="form-control form-control-js" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label form-label-text">write here</label>
+          <textarea class="form-control textarea-js" id="exampleFormControlTextarea1" rows="3" placeholder="your recommendation to our company"></textarea>
+        </div>
+        <p class="result"></p>
+        <button type="button" class="btn btn-dark btn-lg" id="submitBtn">Submit</button>
+      </div>
+      
+
+
+ 
+    <footer>
+        <div class="container-fluid">
+            <button id="scrollToTopBtn" onclick="scrollToTop()">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+            <div class="footer_content">
+        <div class="footer_first">
+            <h2 class="ml-2">Cosme</h2>
+            <h4 class="title-text-big">
+                One of the best beauty shop!
+            </h4>
+        </div>
+        <div class="footer_second">
+            <div class="follow_us">
+                <div class="links">
+                    <a href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok" style="color: #ffffff;"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </footer>
+
+
+    <!-- JavaScript Script -->
+    <script src="script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
